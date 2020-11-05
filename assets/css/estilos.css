@@ -1,10 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;1,200;1,300;1,400&display=swap");
 body {
-  font-family: 'Nunito', sans-serif;
+  font-family: "Nunito", sans-serif;
 }
 
 .nav-capital {
-  background-color: #DC742E;
+  background-color: #dc742e;
   font-size: 14px;
 }
 
@@ -105,9 +105,24 @@ body {
   font-size: 34px;
 }
 
+.relato {
+  padding: 10px 50px;
+  background-color: #fce4be;
+}
+
+.relato p {
+  text-align: justify;
+  margin-left: 8.3333333333%;
+}
+
+.relato span {
+  color: #a09788;
+  margin-left: 8.3333333333%;
+}
+
 .footer {
   padding: 50px;
-  background-color: #353E47;
+  background-color: #353e47;
   color: #f2f2f2;
 }
 
@@ -120,9 +135,9 @@ body {
 }
 
 .footer button {
-  background-color: #DC742E;
+  background-color: #dc742e;
   border-radius: 0px;
-  border: 1px solid #DC742E;
+  border: 1px solid #dc742e;
   color: #f2f2f2;
   padding: 7px 80px;
 }
