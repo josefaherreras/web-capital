@@ -36,4 +36,33 @@ body {
   font-size: 30px;
   padding-right: 1.5rem !important;
 }
+
+.grafico {
+  padding: 50px;
+  background-image: url("../img/fondo-g.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+  background-color: z-index;
+  background-color: #ffaf52;
+  background-color: linear-gradient(180deg, #ffaf52 33%, #ff9a3d 62%, #fe855c 100%);
+}
+
+.grafico .line-white {
+  border-right: 1px solid #f2f2f2;
+  border-left: 1px solid #f2f2f2;
+}
+
+.grafico h1 {
+  color: #f2f2f2;
+  padding-top: 10px;
+  padding-bottom: 0px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 33px;
+}
+
+.grafico p {
+  color: #f2f2f2;
+}
 /*# sourceMappingURL=estilos.css.map */

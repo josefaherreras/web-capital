@@ -22,7 +22,7 @@ body{
 
 }
 
-//Home//
+//SECTION ONE//
 .home{
     padding-top: 20px;
     min-height: 450px;
@@ -41,4 +41,35 @@ body{
         font-size: 30px;
         padding-right: 1.5rem!important;
     }
+}
+
+//SECTION TWO
+.grafico{
+    padding: 50px;
+    background-image: url("../img/fondo-g.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    background-color: z-index;
+    background-color: rgb(255,175,82);
+    background-color: linear-gradient(180deg, rgba(255,175,82,1) 33%, rgba(255,154,61,1) 62%, rgba(254,133,92,1) 100%);
+
+    .line-white{
+        border-right: 1px solid $color-blanco;
+        border-left: 1px solid $color-blanco;
+    }
+    h1{
+        color: $color-blanco;
+        padding-top: 10px;
+        padding-bottom: 0px;
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: 33px;
+    }
+
+    p{
+       color: $color-blanco;
+    }
+
+
 }
