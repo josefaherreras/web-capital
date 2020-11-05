@@ -2,6 +2,7 @@
 $color-naranjo: #DC742E;
 $color-blanco: #f2f2f2;
 $color-negro: #000;
+$color-gris: #353E47;
 
 body{
     font-family: 'Nunito', sans-serif;
@@ -113,3 +114,43 @@ body{
 }
 
 //SECTION FIVE
+.apoyo{
+    .titulo h1{
+        margin: 1.5rem 1.5rem!important;
+        font-size: 34px;
+    }
+
+}
+
+//SECTION SIX
+.testimonios{
+
+}
+
+//SECTION SEVEN
+.prensa{
+
+}
+
+//SECTION EIGHT
+.footer{
+    padding: 50px;
+    background-color: $color-gris;
+    color: $color-blanco;
+
+    h1{
+        font-size: 24px;
+    }
+    h1 .underline{
+        text-decoration: underline;
+    }
+
+    button{
+        background-color: $color-naranjo;
+        border-radius: 0px;
+        border :1px solid $color-naranjo;
+        color: $color-blanco;
+        padding: 7px 80px;
+    }
+
+}
