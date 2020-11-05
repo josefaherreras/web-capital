@@ -65,4 +65,38 @@ body {
 .grafico p {
   color: #f2f2f2;
 }
+
+.about .titulo h1 {
+  margin: 1.5rem 1.5rem !important;
+  font-size: 34px;
+}
+
+.about h1 {
+  font-size: 24px;
+  margin-top: 40px;
+}
+
+.about p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  width: 51%;
+  margin: auto;
+  text-align: left;
+}
+
+.que-es-redcapital {
+  padding: 50px;
+  background-image: url("../img/fondo-g.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: top;
+  background-color: z-index;
+  background-color: #ffaf52;
+  background-color: linear-gradient(180deg, #ffaf52 33%, #ff9a3d 62%, #fe855c 100%);
+  text-align: center;
+}
+
+.que-es-redcapital h1 {
+  padding: 10px;
+}
 /*# sourceMappingURL=estilos.css.map */
