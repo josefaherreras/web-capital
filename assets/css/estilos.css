@@ -1,1 +1,39 @@
-/* No CSS *//*# sourceMappingURL=estilos.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;1,200;1,300;1,400&display=swap");
+body {
+  font-family: 'Nunito', sans-serif;
+}
+
+.nav-capital {
+  background-color: #DC742E;
+  font-size: 14px;
+}
+
+.nav-capital .nav-link {
+  color: white;
+  text-decoration: none;
+  background-color: transparent;
+  display: block;
+  padding: 0.5rem 0.5rem;
+}
+
+.home {
+  padding-top: 20px;
+  min-height: 450px;
+  background-color: pink;
+  background-image: url("../img/bg-home.png");
+  background-color: #000;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position-y: top;
+  background-position-x: center;
+}
+
+.home span {
+  background: rgba(0, 0, 0, 0.6);
+  letter-spacing: 5px;
+  color: #f2f2f2;
+  font-style: italic;
+  font-size: 30px;
+  padding-right: 1.5rem !important;
+}
+/*# sourceMappingURL=estilos.css.map */
