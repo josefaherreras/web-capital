@@ -131,13 +131,52 @@ body {
 
 //SECTION SIX
 .testimonios {
+  padding-top: 15%;
+  background-image: url("../img/bg.mancha.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: top;
+  background-size: cover;
+
+  .layout.wrap {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+  .card{
+    padding: 1rem;
+  }
+
+  img{
+    margin-top: -145px;
+    width: 50%;
+  }
 }
 
 //SECTION SEVEN
 .prensa {
+  padding: 50px 10px;
+  .titulo h1 {
+    margin-bottom: 60px;
+    font-size: 34px;
+  }
+  img {
+    -webkit-filter: grayscale(100%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
+    filter: grayscale(100%); /* FF 35+ */
+  }
+
+  img:hover {
+    transition: filter 0.3s ease-in-out;
+    -webkit-filter: grayscale(0%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
+    filter: grayscale(0%); /* FF 35+ */
+    -webkit-transform: scale(1.25); /* Safari and Chrome */
+    -moz-transform: scale(1.25); /* Firefox */
+    -ms-transform: scale(1.25); /* IE 9 */
+    -o-transform: scale(1.25); /* Opera */
+    transform: scale(1.25);
+  }
 }
 .relato {
-    padding: 10px 50px;
+  padding: 10px 50px;
   background-color: $color-rosap;
   p {
     text-align: justify;
