@@ -17,4 +17,4 @@ Generación de Landing Page desde un mockUp basado en AdobeXD, desarrollado con:
 
 El resultado final lo puedes visualizar en este link.
 
-https://josefaherreras.github.io/web-capital/
+https://josefaherreras.github.io/web-capital/ 
