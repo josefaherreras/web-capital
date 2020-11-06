@@ -36,13 +36,30 @@ body {
   background-position-y: top;
   background-position-x: center;
 
-  span {
+  .bg-negro {
     background: rgba(0, 0, 0, 0.6);
     letter-spacing: 5px;
     color: $color-blanco;
     font-style: italic;
     font-size: 30px;
+    padding: 4px 16px;
     padding-right: 1.5rem !important;
+  }
+  .bg-blanco{
+    background: rgba(255, 255, 255, 0.6);
+    color: $color-negro;
+    font-size: 14px;
+    padding: 4px 16px;
+    padding-right: 1.5rem !important;
+    margin-bottom: 30px;
+  }
+  .btn-ahora{
+      background-color: $color-naranjo;
+      padding-left: 20px;
+      padding-right: 20px;
+      color: $color-blanco;
+      border-radius: 0px;
+      border: 1px solid $color-naranjo;
   }
 }
 
@@ -433,6 +450,7 @@ p {
   color: $color-blanco;
 
   h1 {
+    margin-top: 10px;
     font-size: 24px;
   }
   h1 .underline {
