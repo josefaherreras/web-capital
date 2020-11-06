@@ -9,7 +9,17 @@ $color-rosap: #fce4be;
 body {
   font-family: "Nunito", sans-serif;
 }
-
+//nav
+nav{
+  a{
+  color: $color-blanco;
+  padding: 7px;
+  }
+  a:hover{
+    color:$color-blanco;
+    text-decoration: none;
+  }
+}
 //navbar//
 .nav-capital {
   background-color: $color-naranjo;
@@ -423,11 +433,6 @@ p {
     transition: filter 0.3s ease-in-out;
     -webkit-filter: grayscale(0%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
     filter: grayscale(0%); /* FF 35+ */
-    -webkit-transform: scale(1.25); /* Safari and Chrome */
-    -moz-transform: scale(1.25); /* Firefox */
-    -ms-transform: scale(1.25); /* IE 9 */
-    -o-transform: scale(1.25); /* Opera */
-    transform: scale(1.25);
   }
 }
 .relato {

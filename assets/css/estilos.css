@@ -3,6 +3,16 @@ body {
   font-family: "Nunito", sans-serif;
 }
 
+nav a {
+  color: #f2f2f2;
+  padding: 7px;
+}
+
+nav a:hover {
+  color: #f2f2f2;
+  text-decoration: none;
+}
+
 .nav-capital {
   background-color: #dc742e;
   font-size: 14px;
@@ -425,12 +435,6 @@ body {
   /* Ch 23+, Saf 6.0+, BB 10.0+ */
   filter: grayscale(0%);
   /* FF 35+ */
-  -webkit-transform: scale(1.25);
-  /* Safari and Chrome */
-  /* Firefox */
-  /* IE 9 */
-  /* Opera */
-  transform: scale(1.25);
 }
 
 .relato {
